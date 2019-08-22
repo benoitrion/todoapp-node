@@ -1,0 +1,8 @@
+type Task {
+  id: ID! @id
+  title: String!
+  completed: Boolean!
+  editing: Boolean!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
